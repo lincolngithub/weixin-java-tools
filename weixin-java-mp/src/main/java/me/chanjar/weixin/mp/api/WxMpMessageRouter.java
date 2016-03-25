@@ -229,4 +229,11 @@ public class WxMpMessageRouter {
     }
 
   }
+
+  /**
+   * 清空规则
+   */
+  public void clearRules(){
+    this.getRules().clear();
+  }
 }
